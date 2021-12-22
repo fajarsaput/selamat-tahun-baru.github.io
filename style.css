@@ -1,0 +1,11 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #51769b;
+  background: url("https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/08/Featured_Laptop-Tipis.jpg") no-repeat center center;
+  background-size: cover;
+  color: #f5f8fa;
+}
+
+.product {
+  background-color: #f8f9fa;
+}
