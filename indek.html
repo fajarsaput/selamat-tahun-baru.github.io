@@ -1,157 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <title>TUGAS APTI KELOMPOK 4</title>
+    <title>Hitung Mundur Tahun Baru 2022</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!--  Navbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: #2414ad">
-      <div class="container">
-        <a class="navbar-brand" href="#">Kelompok 4 APTI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Informasi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our Team</a>
-            </li>
-          </ul>
-        </div>
+    <div class="container">
+      <h4><span>Selamat Tahun Baru 2022 Dari Fajar</span></h4>
+      <div class="countdown">
+        <div id="hari">NA</div>
+        <div id="jam">NA</div>
+        <div id="menit">NA</div>
+        <div id="detik">NA</div>
       </div>
-    </nav>
-    <!-- Akhir Navbar -->
+    </div>
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <h1 class="display-4 font-monospace"">Laptop</h1>
-      <p class="lead">
-        Laptop berasal dari kata lap yang artinya pangkuan, dan top artinya atas. Jadi, secara sederhana pengertian laptop adalah komputer kecil yang bisa digunakan diatas pangkuan. Bentuk laptop kecil, ringan, flexible dan dapat dibawa
-        kemana-mana.Ia terdiri dari beberapa komponen yang mencakup casing, perangkat input output (keyboard, monitor, touchpad dll), motherboard, baterai dan juga perangkat lunak berupa sistem operasi dan aplikasi-aplikasi.
-      </p>
-    </section>
-    <!-- Akhir Jumbotron -->
+    <script type="text/javascript">
+      var countDate = new Date("Jan 01 2022 00:00:00").getTime();
 
-    <!-- Product -->
-    <section class="product">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2 class="text-center">Product</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img class="border border-3 border-dark" src="img/laptop-infinix.jpg" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">Infinix INBook X1 Pro</h6>
-                <p>Spesifikasi:</p>
-                <p>- Prosesor : Intel Core i3-1005G1</p>
-                <p>- Memori : Hardisk 256 GB dan RAM 8 GB</p>
-                <p>- Bluetooth : BT 5.1</p>
-                <p>- Layar : 1920x1080 LCD tipe IPS</p>
-                <p>- Kamera : 720 pixel</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img class="border border-3 border-dark" src="img/3.jpg" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">Huawai MateBook D14</h6>
-                <p>Spesifikasi:</p>
-                <p>- Prosesor : Intel i3 10110U</p>
-                <p>- Layar : 1920x1080 FPS 14 inc</p>
-                <p>- Penyimpanan : SSD 256 dan RAM 8GB</p>
-                <p>- Sistem Operasi : Windows 10 Home</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb3">
-            <div class="card">
-              <img class="border border-3 border-dark" src="img/5.JPG" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">Acer Aspire 3 A314-35-C80W</h6>
-                <p>Spesifikasi:</p>
-                <p>- Prosesor : Intel Coleron N5100</p>
-                <p>- Storage : RAM 4GB DDR 4 dan 256 GB</p>
-                <p>- Sistem Operasi : Windows 11 Home x64</p>
-                <p>- Layar : 14 inc 1366x768 piksel</p>
-                <p>- Kamera : 720p HD camera</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb3">
-            <div class="card">
-              <img class="border border-3 border-dark" src="img/rog.jpg" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">ASUS ROG Zephyrus Duo 15 SE</h6>
-                <p>Spesifikasi:</p>
-                <p>- Prosesor : AMD Rysen 9 5989HX</p>
-                <p>- Storage : 1TB M.2 NVMe PCle 3.0 x4 SSD</p>
-                <p>- Sistem Operasi : Windows 10 Home x64</p>
-                <p>- Layar : 15,6 inc FHD 1920x1080 IPS</p>
-                <p>- Kamera : FHD 1080P@60FPS external camera</p>
-                <p>- Keyboard : Backlit RGB</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb3">
-            <div class="card">
-              <img class="border border-3 border-dark" src="img/67c8705ac0345504fc173cf73e5048f1.jpg" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">Lenovo idealpad s145</h6>
-                <p>Spesifikasi:</p>
-                <p>- Sistem Operasi : Intel Celeron 4205U Gen 8th</p>
-                <p>- Storage : RAM 4GB SSD 256GB</p>
-                <p>- Prosesor : Intel Core i7</p>
-                <p>- Layar : 1366x768 pixel IPS 14 inc</p>
-                <p>- Kamera : 720p HD camera</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb3">
-            <div class="card">
-              <img class="border border-3 border-danger" src="img/Asus-VivoBook-Pro-14X-OLED-300x300.jpg" class="card-img-top" alt="Product1" />
-              <div class="card-body">
-                <h6 class="card-text text-center">Asus-VivoBook-Pro-14X-OLED-300x300</h6>
-                <p>Spesifikasi:</p>
-                <p>- Prosesor : Intel Core i5-11300H</p>
-                <p>- Storage : RAM 16GB DDR 4 dan SSD 256 GB PCLe Gen3</p>
-                <p>- Sistem Operasi : Windows 10 Home x64</p>
-                <p>- Layar : 14 inc 2880x1880 piksel</p>
-                <p>- Kamera : 720p HD camera</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Product -->
-    <!-- Informasi -->
+      function neYear() {
+        var now = new Date().getTime();
+        gap = countDate - now;
 
-    <!-- Akhir Informasi -->
+        var detik = 1000;
+        var menit = detik * 60;
+        var jam = menit * 60;
+        var hari = jam * 24;
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        var h = Math.floor(gap / hari);
+        var j = Math.floor((gap % hari) / jam);
+        var m = Math.floor((gap % jam) / menit);
+        var d = Math.floor((gap % menit) / detik);
+
+        document.getElementById("hari").innerText = h;
+        document.getElementById("jam").innerText = j;
+        document.getElementById("menit").innerText = m;
+        document.getElementById("detik").innerText = d;
+      }
+      setInterval(function () {
+        neYear();
+      }, 1000);
+    </script>
   </body>
 </html>
