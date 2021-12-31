@@ -1,14 +1,90 @@
-.jumbotron {
-  padding: 2rem 1rem;
-  background: url("https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/08/Featured_Laptop-Tipis.jpg") no-repeat center center;
-  background-size: cover;
-  color: #f5f8fa;
-  padding-top: 10%;
-  padding-bottom: 10%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.product {
-  background-color: #f8f9fa;
+.body {
+  background: #000 url(img/WhatsApp\ Image\ 2021-12-31\ at\ 17.33.12.jpeg);
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+  font-family: sans-serif;
 }
-t
+
+.container {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  right: 100px;
+  bottom: 80px;
+  background: url(img/WhatsApp\ Image\ 2021-12-31\ at\ 17.33.12.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5), 0 0 0 100px rgba(0, 0, 0, 0.1);
+
+  border-radius: 5px;
+}
+
+.container h4 {
+  text-align: center;
+  font-size: 5em;
+  line-height: 2em;
+  color: rgb(223, 219, 14);
+  text-shadow: 2px 2px 5px #000;
+  margin-top: -80px;
+}
+
+.containerh4 span {
+  display: block;
+  font-size: 0, 2em;
+  font-weight: 200;
+  letter-spacing: 9px;
+}
+
+.countdown {
+  display: flex;
+  margin-top: 50px;
+}
+
+.countdown div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: linear-gradient(#ea1063, #960089);
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.countdown div:before {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100px;
+  height: 50px;
+  background: #ec1063;
+  color: #fff;
+  font-size: 0.35em;
+  line-height: 35px;
+  font-weight: 300;
+}
+
+.countdown #hari:before {
+  content: "Hari";
+}
+.countdown #jam:before {
+  content: "Jam";
+}
+.countdown #menit:before {
+  content: "Menit";
+}
+.countdown #detik:before {
+  content: "Detik";
 }
